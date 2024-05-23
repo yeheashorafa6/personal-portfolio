@@ -1,0 +1,69 @@
+.contact{
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    padding: 60px 0 200px 0;
+    height: 85vh;
+}
+
+.contact svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.5s ease-in-out;
+    line-height: 1;
+  }
+
+.contact img {
+    animation: updown 4s linear infinite;
+  }
+ 
+  .contact img {
+    width: 92%;
+}
+
+.form-title h1{
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+form .form-control{
+    background-color: #6D3CA7 !important;
+    padding: 20px;
+    border-radius: 15px;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.288);
+}
+
+.form-control::placeholder{
+    color: white;
+    font-size: 15px;
+}
+
+.form-control:focus {
+    border-color: rgba(255, 255, 255, 0.288) !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+form .btn{
+    padding: 15px 50px;
+    color: rgb(109, 60, 167);
+    background-color: var(--white-color);
+    border: none !important;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    transition: all .5s ease;
+}
+form .btn:hover{
+    color: var(--dark-color);
+    font-weight: 500;
+    background-color: rgb(109, 60, 167) !important;
+    color: white;
+}
+
+.message-sending{
+    padding: 20px;
+    margin: 20px;
+    font-size: 18px;
+}
+
