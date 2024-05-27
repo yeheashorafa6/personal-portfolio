@@ -81,7 +81,11 @@
     .nav-link#projects-tabs-tab-first , 
     .nav-link#projects-tabs-tab-second ,
     .nav-link#projects-tabs-tab-third {
-        font-size: 12px;
+        font-size: 9px;
+      }
+
+      .projects .nav-pills{
+        background-color: transparent !important;
       }
 }
   

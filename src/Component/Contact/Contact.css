@@ -67,3 +67,9 @@ form .btn:hover{
     font-size: 18px;
 }
 
+@media screen and (max-width: 380px) {
+    .contact{
+       
+        height: 120vh;
+    }
+}

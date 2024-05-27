@@ -8,9 +8,6 @@ footer{
     align-items: center !important;
 }
 
-/* footer .navbar-brand img{
-    width: 30%;   
-} */
 
 footer .navbar-text{
     text-align : center;
@@ -63,4 +60,20 @@ footer .social-icon{
 }
 .navbar-text p span:hover{
     color :#6D3CA7;
+}
+
+@media screen and (max-width: 420px) {
+    footer .navbar-brand img{
+    width: 60% !important;   
+    }
+
+    .social-icon a.icon{
+        width: 35px !important;
+        height: 35px !important;
+    }
+
+    .navbar-text p{
+        font-size: 14px;
+    }
+
 }

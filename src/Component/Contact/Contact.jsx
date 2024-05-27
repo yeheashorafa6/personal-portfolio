@@ -17,7 +17,6 @@ function Contact() {
 
   const [inputValue , setInputValue] = useState(initInputValue);
 
-
   const [buttonText , setButtonText] = useState('send')
 
   const [result , setResult] =useState("")

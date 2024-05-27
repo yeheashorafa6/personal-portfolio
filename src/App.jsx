@@ -1,48 +1,43 @@
-import "bootstrap/dist/css/bootstrap.min.css"
-import Header from './Component/Navbar/Header'
-import Hero from './Component/Hero/Hero'
-import Skills from "./Component/Skills/Skills"
-import Projects from "./Component/Projects/Projects"
-import Contact from "./Component/Contact/Contact"
-import Footer from "./Component/Footer/Footer"
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./Component/Navbar/Header";
+import Hero from "./Component/Hero/Hero";
+import Skills from "./Component/Skills/Skills";
+import Projects from "./Component/Projects/Projects";
+import Contact from "./Component/Contact/Contact";
+import Footer from "./Component/Footer/Footer";
 
 function App() {
-
   return (
     <>
-    {/* HEADER */}
-    <Header />
-    {/* == HEADER == */}
+      {/* HEADER */}
+      <Header />
+      {/* == HEADER == */}
 
-    {/* SECTIONS */}
-    <main>
-
+      {/* SECTIONS */}
+      <main>
         {/* HERO SECTION */}
-        <Hero/>
+        <Hero />
         {/* == HERO SECTION == */}
 
         {/* SKILLS SECTION */}
-        <Skills/>
+        <Skills />
         {/* == SKILLS SECTION == */}
 
         {/* PROJECTS SECTION */}
-        <Projects/>
+        <Projects />
         {/* == PROJECTS SECTION == */}
 
         {/* CONTACT SECTION */}
-        <Contact/>
+        <Contact />
         {/* == CONTACT SECTION == */}
+      </main>
+      {/* == SECTION == */}
 
-    </main>
-    {/* == SECTION == */}
-
-    {/* FOOTER SECTION */}
-    <Footer/>
-    {/* == FOOTER SECTION == */}
-
-       
+      {/* FOOTER SECTION */}
+      <Footer />
+      {/* == FOOTER SECTION == */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
